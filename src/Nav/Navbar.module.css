@@ -1,0 +1,49 @@
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 1px var(--color-4);
+  padding: 1rem;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.name span {
+  color: var(--color-4);
+}
+
+.cart {
+  position: relative;
+  display: block;
+  width: 4rem;
+  height: auto;
+  overflow: hidden;
+  padding: 0.4rem;
+}
+
+.order_icon {
+  height: 2.2rem;
+  width: auto;
+}
+
+.count {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  z-index: 2;
+  font-size: 11px;
+  border-radius: 50%;
+  background: #d60b28;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
