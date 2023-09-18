@@ -4,7 +4,7 @@ A web app that handles a restaurant menu. Filter functionality for all menu item
 ![Alt text](Yummy.png)
 
 # Technologies
-The project was built in React js making use of html,css and javascript knowledge.
+The project was built in Vite + React js making use of html,css and javascript knowledge.
 
 # What I learned and practiced
 - React js components, props
